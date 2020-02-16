@@ -1,0 +1,16 @@
+{
+    "env":{
+        "commonjs": true,
+        "es6": true,
+        "browser": true,
+        "jest": true
+    },
+    "plugins": ["import"],
+    "extends": ["airbnb", "plugin:prettier/recommended"],
+    "parser": "babel-eslint",
+    "rules":{
+        "react/jsx-filename-extension": [1, {
+            "extensions": [".js", ".jsx"]
+        }]
+    }
+}
